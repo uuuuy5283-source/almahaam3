@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المهام</string>
+    <string name="start_recording">بدء التسجيل</string>
+    <string name="stop_recording">إيقاف التسجيل</string>
+    <string name="status_ready">جاهز للتسجيل</string>
+    <string name="status_recording">جارٍ التسجيل رقم %1$d</string>
+    <string name="status_saved">تم حفظ التسجيل رقم %1$d</string>
+    <string name="status_saved_fallback">تم حفظ التسجيل رقم %1$d في المكان الافتراضي (تعذّر الحفظ في المجلد المختار)</string>
+    <string name="status_failed">تعذّر حفظ التسجيل، حاول مرة أخرى</string>
+    <string name="counts">التسجيل القادم: رقم %1$d  •  المحفوظ هذا الشهر: %2$d</string>
+    <string name="storage_title">مكان حفظ التسجيلات</string>
+    <string name="storage_current">المكان الحالي: %1$s</string>
+    <string name="storage_default">التخزين الداخلي (الافتراضي)</string>
+    <string name="choose_folder">اختيار مجلد الحفظ (بطاقة SD)</string>
+    <string name="reset_folder">العودة للمكان الافتراضي</string>
+    <string name="folder_hint">في النافذة التي ستظهر: اختر بطاقة SD من القائمة، ثم أنشئ مجلدًا جديدًا (أو اختر مجلدًا موجودًا) واضغط «استخدام هذا المجلد». لا يسمح Android باختيار الجذر الرئيسي للبطاقة نفسه.</string>
+    <string name="folder_saved">تم تحديد مجلد الحفظ</string>
+    <string name="folder_not_writable">لا يمكن الكتابة في هذا المجلد، اختر مجلدًا آخر</string>
+    <string name="device_title">أدوات الجهاز</string>
+    <string name="screen_off">إيقاف الشاشة</string>
+    <string name="shutdown">Shutdown</string>
+    <string name="admin_explanation">مطلوب لقفل الشاشة فورًا عند الضغط على زر «إيقاف الشاشة». لا يستخدم التطبيق هذه الصلاحية لأي غرض آخر.</string>
+    <string name="admin_enabled_toast">تم التفعيل. اضغط «إيقاف الشاشة» مرة أخرى لقفل الشاشة</string>
+    <string name="shutdown_dialog_title">تفعيل خدمة إمكانية الوصول</string>
+    <string name="shutdown_dialog_msg">Android لا يسمح للتطبيقات العادية بإطفاء الهاتف مباشرة. الطريقة الرسمية المتاحة هي فتح قائمة الطاقة، ثم تضغط أنت على «إيقاف التشغيل».\n\nلذلك فعّل خدمة «المهام» من إعدادات إمكانية الوصول. الخدمة لا تقرأ شاشتك ولا تتابع أي شيء، وكل ما تفعله فتح قائمة الطاقة.\n\nملاحظة: إن ظهر الإعداد «مقيّدًا»، افتح معلومات التطبيق ← القائمة ⋮ ← «السماح بالإعدادات المقيّدة».</string>
+    <string name="power_dialog_failed">تعذّر فتح قائمة الطاقة. اضغط مطولًا على زر التشغيل في الهاتف</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="cancel">إلغاء</string>
+    <string name="perm_mic_title">صلاحية الميكروفون مطلوبة</string>
+    <string name="perm_mic_msg">لا يمكن التسجيل دون صلاحية الميكروفون. فعّلها من إعدادات التطبيق.</string>
+    <string name="notif_off_toast">الإشعارات غير مفعّلة؛ سيستمر التسجيل لكن لن يظهر رقمه في الإشعارات</string>
+    <string name="autostart_note">على هواتف Xiaomi: لتعمل المهام الشهرية بعد إعادة التشغيل فعّل «التشغيل التلقائي» للتطبيق من الإعدادات ← التطبيقات ← إدارة التطبيقات ← المهام.</string>
+    <string name="ch_recording">التسجيل الجاري</string>
+    <string name="ch_saved">التسجيلات المحفوظة</string>
+    <string name="ch_monthly">التقرير الشهري</string>
+    <string name="notif_recording_text">جارٍ التسجيل رقم %1$d</string>
+    <string name="notif_stop">إيقاف</string>
+    <string name="notif_monthly_text">عدد التسجيلات المحفوظة في %1$s: %2$d</string>
+    <string name="accessibility_description">يفتح قائمة الطاقة فقط عند الضغط على زر Shutdown داخل تطبيق المهام. لا يقرأ الشاشة ولا يتابع أي نشاط.</string>
+</resources>
